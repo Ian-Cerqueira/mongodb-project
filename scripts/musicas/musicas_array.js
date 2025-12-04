@@ -395,11 +395,8 @@ export const musicasf = [
     artista: ["Pink Floyd"],
     explicita: false,
     lyrics: "Mother do you think they'll drop the bomb? / Mother do you think they'll like this song?"
-  }
-];
+  },
 
-
-const musicas_parte2 = [
   // --- ÁLBUM 11: Wish You Were Here (Pink Floyd) ---
   {
     titulo: "Shine On You Crazy Diamond (Pts. 1-5)",
@@ -769,24 +766,8 @@ const musicas_parte2 = [
     artista: ["David Bowie"],
     explicita: false,
     lyrics: "I know something is very wrong / The pulse returns the prodigal sons"
-  }
-];
+  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const musicas_parte3 = [
   // --- ÁLBUM 21: Heroes (David Bowie) ---
   {
     titulo: "Heroes",
@@ -1129,25 +1110,7 @@ const musicas_parte3 = [
     artista: ["Gilberto Gil"],
     explicita: false,
     lyrics: "No woman, no cry / Não chores mais"
-  }
-];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const musicas_parte4 = [
+  },
   // --- ÁLBUM 30: Verde, Anil, Amarelo... (Marisa Monte) ---
   {
     titulo: "Maria de Verdade",
@@ -1490,26 +1453,8 @@ const musicas_parte4 = [
     artista: ["Led Zeppelin"],
     explicita: false,
     lyrics: "Spent my days with a woman unkind / Smoked my stuff and drank all my wine"
-  }
-];
+  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const musicas_parte5 = [
   // --- ÁLBUM 40: Physical Graffiti (Led Zeppelin) ---
   {
     titulo: "Kashmir",
@@ -1852,23 +1797,7 @@ const musicas_parte5 = [
     artista: ["Red Hot Chili Peppers"],
     explicita: false,
     lyrics: "Road trippin' with my two favorite allies / Fully loaded we got snacks and supplies"
-  }
-];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const musicas_parte6 = [
+  },
   // --- ÁLBUM 50: By the Way (Red Hot Chili Peppers) ---
   {
     titulo: "By the Way",
@@ -2301,36 +2230,7 @@ const musicas_parte6 = [
     artista: ["Nirvana"],
     explicita: false,
     lyrics: "Polly wants a cracker / I think I should get off her first"
-  }
-];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const musicas_final = [
+  },
   // --- ÁLBUM 60: Back to Black (Amy Winehouse) ---
   { titulo: "Rehab", duração: 215, generos: ["Soul", "R&B"], streams: 1200000000, artista: ["Amy Winehouse"], explicita: false, lyrics: "They tried to make me go to Rehab, but I said no, no, no" },
   { titulo: "You Know I'm No Good", duração: 257, generos: ["Soul", "R&B"], streams: 800000000, artista: ["Amy Winehouse"], explicita: false, lyrics: "I cheated myself, like I knew I would / I told you I was trouble" },
