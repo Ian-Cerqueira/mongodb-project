@@ -1,4 +1,4 @@
-const musicas = [
+export const musicasf = [
   // --- ÁLBUM 1: Folklore (Taylor Swift) ---
   {
     titulo: "Cardigan",
@@ -397,24 +397,6 @@ const musicas = [
     lyrics: "Mother do you think they'll drop the bomb? / Mother do you think they'll like this song?"
   }
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const musicas_parte2 = [
