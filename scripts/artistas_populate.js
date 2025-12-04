@@ -1,339 +1,386 @@
-// Script MongoDB — coleção “artistas”
 db.artistas.insertMany([
   {
     nome: "Amy Winehouse",
-    data_nascimento: ISODate("1983-09-14"),
-    local: "Londres, Inglaterra",
+    data_nascimento: "14-09-1983",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 21700000  // ~21,7 milhões conforme Spotify :contentReference[oaicite:1]{index=1}
+    seguidores: [],
+    ouvintes_mensais: 26000000
   },
   {
     nome: "Arctic Monkeys",
-    data_nascimento: null,
-    local: "Sheffield, Inglaterra",
+    data_nascimento: "01-01-2002",
+    local: "Sheffield, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 54343316  // ~54,3 milhões conforme ranking recente :contentReference[oaicite:2]{index=2}
+    seguidores: [],
+    ouvintes_mensais: 55000000
   },
   {
     nome: "Arnaldo Antunes",
-    data_nascimento: null,
-    local: "",  // informação não preenchida
+    data_nascimento: "02-09-1960",
+    local: "São Paulo, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 900000
   },
   {
     nome: "Beyoncé",
-    data_nascimento: ISODate("1981-09-04"),
-    local: "Houston, Texas, EUA",
+    data_nascimento: "04-09-1981",
+    local: "Houston, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null  // dado não checado
+    seguidores: [],
+    ouvintes_mensais: 69000000
   },
   {
     nome: "Black Sabbath",
-    data_nascimento: null,
-    local: "Birmingham, Inglaterra",
+    data_nascimento: "01-01-1968",
+    local: "Birmingham, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 11000000
   },
   {
     nome: "Caetano Veloso",
-    data_nascimento: ISODate("1942-08-07"),
-    local: "Juazeiro, Bahia, Brasil",
+    data_nascimento: "07-08-1942",
+    local: "Santo Amaro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 4300000
   },
   {
     nome: "Carlinhos Brown",
-    data_nascimento: null,
-    local: "",
+    data_nascimento: "23-11-1962",
+    local: "Salvador, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 1200000
   },
   {
     nome: "Chico Buarque",
-    data_nascimento: ISODate("1944-06-19"),
+    data_nascimento: "19-06-1944",
     local: "Rio de Janeiro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 5200000
   },
   {
     nome: "Daft Punk",
-    data_nascimento: null,
+    data_nascimento: "01-01-1993",
     local: "Paris, França",
-    idioma: "Francês / Inglês",
-    ouvintes_mensais: null
+    idioma: "Francês",
+    seguidores: [],
+    ouvintes_mensais: 25000000
   },
   {
     nome: "David Bowie",
-    data_nascimento: ISODate("1947-01-08"),
-    local: "Londres, Inglaterra",
+    data_nascimento: "08-01-1947",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 18000000
   },
   {
     nome: "Dua Lipa",
-    data_nascimento: ISODate("1995-08-22"),
-    local: "Londres, Inglaterra",
+    data_nascimento: "22-08-1995",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 61921145  // ~61,9 milhões segundo ranking :contentReference[oaicite:3]{index=3}
+    seguidores: [],
+    ouvintes_mensais: 78000000
   },
   {
     nome: "Fleetwood Mac",
-    data_nascimento: null,
-    local: "Reino Unido / EUA",
+    data_nascimento: "01-01-1967",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 46389065  // ~46,4 milhões conforme ranking :contentReference[oaicite:4]{index=4}
+    seguidores: [],
+    ouvintes_mensais: 29000000
   },
   {
     nome: "Frank Ocean",
-    data_nascimento: ISODate("1987-10-28"),
-    local: "Long Beach, Califórnia, EUA",
+    data_nascimento: "28-10-1987",
+    local: "Long Beach, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 32000000
   },
   {
     nome: "Gal Costa",
-    data_nascimento: ISODate("1945-09-26"),
-    local: "Salvador, Bahia, Brasil",
+    data_nascimento: "26-09-1945",
+    local: "Salvador, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 3500000
   },
   {
     nome: "Gilberto Gil",
-    data_nascimento: ISODate("1942-06-26"),
-    local: "Salvador, Bahia, Brasil",
+    data_nascimento: "26-06-1942",
+    local: "Salvador, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 3800000
   },
   {
     nome: "Guns N' Roses",
-    data_nascimento: null,
-    local: "Los Angeles, Califórnia, EUA",
+    data_nascimento: "01-03-1985",
+    local: "Los Angeles, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 33000000
   },
   {
     nome: "Jorge Ben Jor",
-    data_nascimento: ISODate("1945-03-22"),
+    data_nascimento: "22-03-1942",
     local: "Rio de Janeiro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 9000000
   },
   {
     nome: "Kanye West",
-    data_nascimento: ISODate("1977-06-08"),
-    local: "Atlanta, Geórgia, EUA",
+    data_nascimento: "08-06-1977",
+    local: "Atlanta, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 65591965  // ~65,6 milhões conforme ranking :contentReference[oaicite:5]{index=5}
+    seguidores: [],
+    ouvintes_mensais: 60000000
   },
   {
     nome: "Kendrick Lamar",
-    data_nascimento: ISODate("1987-06-17"),
-    local: "Compton, Califórnia, EUA",
+    data_nascimento: "17-06-1987",
+    local: "Compton, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 70453785  // ~70,5 milhões segundo ranking :contentReference[oaicite:6]{index=6}
+    seguidores: [],
+    ouvintes_mensais: 62000000
   },
   {
     nome: "Lauryn Hill",
-    data_nascimento: ISODate("1975-05-26"),
-    local: "East Orange, Nova Jérsei, EUA",
+    data_nascimento: "26-05-1975",
+    local: "Newark, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 9000000
   },
   {
     nome: "Led Zeppelin",
-    data_nascimento: null,
-    local: "Londres, Inglaterra",
+    data_nascimento: "01-01-1968",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 27000000
   },
   {
     nome: "Legião Urbana",
-    data_nascimento: null,
+    data_nascimento: "01-01-1982",
     local: "Brasília, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 7500000
   },
   {
     nome: "Linkin Park",
-    data_nascimento: null,
-    local: "Agoura Hills, Califórnia, EUA",
+    data_nascimento: "01-01-1996",
+    local: "Agoura Hills, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 52742858  // ~52,7 milhões conforme ranking :contentReference[oaicite:7]{index=7}
+    seguidores: [],
+    ouvintes_mensais: 42000000
   },
   {
     nome: "Lô Borges",
-    data_nascimento: ISODate("1952-04-10"),
-    local: "Nelas, Portugal / Brasil",  // ou local de vida; ajustar conforme desejado
+    data_nascimento: "10-01-1952",
+    local: "Belo Horizonte, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 1400000
   },
   {
     nome: "Marisa Monte",
-    data_nascimento: ISODate("1967-07-01"),
+    data_nascimento: "01-07-1967",
     local: "Rio de Janeiro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 2400000
   },
   {
     nome: "Metallica",
-    data_nascimento: null,
-    local: "Los Angeles, Califórnia, EUA",
+    data_nascimento: "28-10-1981",
+    local: "Los Angeles, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 52000000
   },
   {
     nome: "Michael Jackson",
-    data_nascimento: ISODate("1958-08-29"),
-    local: "Gary, Indiana, EUA",
+    data_nascimento: "29-08-1958",
+    local: "Gary, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 61350750  // ~61,35 milhões conforme ranking :contentReference[oaicite:8]{index=8}
+    seguidores: [],
+    ouvintes_mensais: 43000000
   },
   {
     nome: "Miles Davis",
-    data_nascimento: ISODate("1926-05-26"),
-    local: "Alton, Illinois, EUA",
+    data_nascimento: "26-05-1926",
+    local: "Alton, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 6000000
   },
   {
     nome: "Milton Nascimento",
-    data_nascimento: ISODate("1942-10-26"),
-    local: "Três Pontas, Minas Gerais, Brasil",
+    data_nascimento: "26-10-1942",
+    local: "Rio de Janeiro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 3000000
   },
   {
     nome: "Nirvana",
-    data_nascimento: null,
-    local: "Aberdeen, Washington, EUA",
+    data_nascimento: "01-01-1987",
+    local: "Aberdeen, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 39000000
   },
   {
     nome: "Novos Baianos",
-    data_nascimento: null,
-    local: "Salvador / Rio de Janeiro, Brasil",
+    data_nascimento: "01-01-1969",
+    local: "Salvador, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 1600000
   },
   {
     nome: "Os Mutantes",
-    data_nascimento: null,
-    local: "São Paulo / Rio de Janeiro, Brasil",
+    data_nascimento: "01-01-1966",
+    local: "São Paulo, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 1800000
   },
   {
     nome: "Pearl Jam",
-    data_nascimento: null,
-    local: "Seattle, Washington, EUA",
+    data_nascimento: "01-01-1990",
+    local: "Seattle, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 20000000
   },
   {
     nome: "Pink Floyd",
-    data_nascimento: null,
-    local: "Londres, Inglaterra",
+    data_nascimento: "01-01-1965",
+    local: "Londres, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 45282288  // ~45,3 milhões conforme ranking :contentReference[oaicite:9]{index=9}
+    seguidores: [],
+    ouvintes_mensais: 40000000
   },
   {
     nome: "Prince",
-    data_nascimento: ISODate("1958-06-07"),
-    local: "Minneapolis, Minnesota, EUA",
+    data_nascimento: "07-06-1958",
+    local: "Minneapolis, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 15000000
   },
   {
     nome: "Racionais MC's",
-    data_nascimento: null,
+    data_nascimento: "01-01-1988",
     local: "São Paulo, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 3000000
   },
   {
     nome: "Radiohead",
-    data_nascimento: null,
-    local: "Abingdon, Inglaterra",
+    data_nascimento: "01-01-1985",
+    local: "Abingdon, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: 45282288  // ~45,3 milhões conforme ranking :contentReference[oaicite:10]{index=10}
+    seguidores: [],
+    ouvintes_mensais: 21000000
   },
   {
     nome: "Red Hot Chili Peppers",
-    data_nascimento: null,
-    local: "Los Angeles, Califórnia, EUA",
+    data_nascimento: "01-01-1983",
+    local: "Los Angeles, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 35000000
   },
   {
     nome: "Rosalía",
-    data_nascimento: ISODate("1992-09-25"),
+    data_nascimento: "25-09-1992",
     local: "Barcelona, Espanha",
-    idioma: "Espanhol / Inglês",
-    ouvintes_mensais: null
+    idioma: "Espanhol",
+    seguidores: [],
+    ouvintes_mensais: 22000000
   },
   {
     nome: "Tame Impala",
-    data_nascimento: null,
+    data_nascimento: "01-01-2007",
     local: "Perth, Austrália",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 20000000
   },
   {
     nome: "Taylor Swift",
-    data_nascimento: ISODate("1989-12-13"),
-    local: "Reading, Pennsylvania, EUA",
+    data_nascimento: "13-12-1989",
+    local: "West Reading, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 105663590  // ~105,7 milhões conforme ranking atual :contentReference[oaicite:11]{index=11}
+    seguidores: [],
+    ouvintes_mensais: 105000000
   },
   {
     nome: "The Beatles",
-    data_nascimento: null,
-    local: "Liverpool, Inglaterra",
+    data_nascimento: "01-01-1960",
+    local: "Liverpool, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 42000000
   },
   {
     nome: "The Revolution",
-    data_nascimento: null,
-    local: "",  // banda de apoio histórica de Prince; sem local definido
+    data_nascimento: "01-01-1979",
+    local: "Minneapolis, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 600000
   },
   {
     nome: "The Smiths",
-    data_nascimento: null,
-    local: "Manchester, Inglaterra",
+    data_nascimento: "01-01-1982",
+    local: "Manchester, Reino Unido",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 11000000
   },
   {
     nome: "The Strokes",
-    data_nascimento: null,
-    local: "New York, EUA",
+    data_nascimento: "01-01-1998",
+    local: "Nova York, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 18000000
   },
   {
     nome: "The Weeknd",
-    data_nascimento: ISODate("1990-02-16"),
+    data_nascimento: "16-02-1990",
     local: "Toronto, Canadá",
     idioma: "Inglês",
-    ouvintes_mensais: 120308767  // ~120,3 milhões conforme ranking atual :contentReference[oaicite:12]{index=12}
+    seguidores: [],
+    ouvintes_mensais: 94000000
   },
   {
     nome: "Tim Maia",
-    data_nascimento: ISODate("1942-09-28"),
+    data_nascimento: "28-09-1942",
     local: "Rio de Janeiro, Brasil",
     idioma: "Português",
-    ouvintes_mensais: null
+    seguidores: [],
+    ouvintes_mensais: 3500000
   },
   {
     nome: "Tyler, The Creator",
-    data_nascimento: ISODate("1991-03-06"),
-    local: "Los Angeles, Califórnia, EUA",
+    data_nascimento: "06-03-1991",
+    local: "Ladera Heights, EUA",
     idioma: "Inglês",
-    ouvintes_mensais: 45646644  // ~45,6 milhões conforme ranking :contentReference[oaicite:13]{index=13}
+    seguidores: [],
+    ouvintes_mensais: 30000000
   }
 ]);
