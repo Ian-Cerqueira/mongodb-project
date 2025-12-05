@@ -7,4 +7,6 @@ artistas_final.forEach(element => {
     counter = counter + 1;
 });
 
-db.artistas.insertMany(artistas_final);
+console.log(artistas_final.length);
+
+//db.artistas.insertMany(artistas_final);
