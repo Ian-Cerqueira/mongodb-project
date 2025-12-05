@@ -7,4 +7,6 @@ albuns_final.forEach(element => {
     counter = counter + 1;
 });
 
-db.albuns.insertMany(albuns_final);
+//db.albuns.insertMany(albuns_final);
+
+console.log(JSON.stringify(albuns_final));

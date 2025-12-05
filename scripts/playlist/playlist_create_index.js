@@ -7,4 +7,4 @@ playlists_final.forEach(element => {
     counter = counter + 1;
 });
 
-db.playlists.insertMany(playlists_final);
+//db.playlists.insertMany(playlists_final);

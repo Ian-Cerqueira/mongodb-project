@@ -7,6 +7,8 @@ users_final.forEach(element => {
     counter = counter + 1;
 });
 
-console.log(users_final.length);
+//console.log(users_final.length);
 
-db.users.insertMany(users_final);
+//db.users.insertMany(users_final);
+
+console.log(JSON.stringify(users_final));

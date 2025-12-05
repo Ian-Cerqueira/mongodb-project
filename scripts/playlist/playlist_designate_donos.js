@@ -9,3 +9,4 @@ playlist_desi_donos.forEach(element => {
     counter = counter + 1;
 });
 
+console.log(JSON.stringify(playlist_desi_donos));

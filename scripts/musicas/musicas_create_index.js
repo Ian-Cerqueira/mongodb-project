@@ -7,6 +7,6 @@ musicas_final.forEach(element => {
     counter = counter + 1;
 });
 
-db.musicas.insertMany(musicas_final);
+//db.musicas.insertMany(musicas_final);
 
-//console.log(JSON.stringify(musicas_final));
+console.log(JSON.stringify(musicas_final));
