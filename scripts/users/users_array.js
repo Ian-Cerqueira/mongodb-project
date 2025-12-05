@@ -1,4 +1,4 @@
-export const users_f = [{
+const users_f = [{
         "nome": "Ana Silva",
         "email": "ana.silva.0@gmail.com",
         "senha": "1234",
