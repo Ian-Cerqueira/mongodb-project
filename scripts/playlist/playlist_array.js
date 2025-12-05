@@ -10,7 +10,7 @@ export const playlists_f = [
       { titulo: "Wish You Were Here" },
       { titulo: "War Pigs" }
     ],
-    dono: [{ usuario: "rock_master_70s" }],
+    dono: [],
     publica: true,
     capa: "https://example.com/covers/rock_legends.jpg"
   },
