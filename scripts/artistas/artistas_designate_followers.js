@@ -1,7 +1,7 @@
 import { artistas_final } from "./artistas_create_index.js";
 import { artistas_followers } from "./artistas_followers_array.js";
 
-let artistas_designated = artistas_final;
+export let artistas_designated = artistas_final;
 let counter = 0;
 
 artistas_designated.forEach(element => {
