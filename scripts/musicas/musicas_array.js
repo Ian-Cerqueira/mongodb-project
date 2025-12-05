@@ -1,4 +1,4 @@
-export const musicasf = [
+const musicasf = [
   // --- ÁLBUM 1: Folklore (Taylor Swift) ---
   {
     titulo: "Cardigan",
