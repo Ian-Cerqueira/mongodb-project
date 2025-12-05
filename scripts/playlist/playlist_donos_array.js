@@ -1,4 +1,4 @@
-export const donos_playlits = [
+const donos_playlits = [
     [24], 
     [5, 20, 30], 
     [1, 5, 30], 

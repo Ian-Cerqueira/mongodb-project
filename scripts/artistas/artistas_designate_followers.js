@@ -8,3 +8,5 @@ artistas_designated.forEach(element => {
     element['seguidores'] = artistas_followers[counter];
     counter = counter + 1;
 });
+
+db.artistas.insertMany(artistas_designated);
