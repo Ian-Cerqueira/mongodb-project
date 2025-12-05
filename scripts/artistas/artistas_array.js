@@ -1,4 +1,4 @@
-export const artistas_f = [{
+const artistas_f = [{
         nome: "Amy Winehouse",
         data_nascimento: "14-09-1983",
         local: "Londres, Reino Unido",

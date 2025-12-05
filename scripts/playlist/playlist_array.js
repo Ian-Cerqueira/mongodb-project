@@ -1,4 +1,4 @@
-export const playlists_f = [
+const playlists_f = [
   {
     Titulo: "Rock Legends",
     descrição: "Os maiores hinos do rock presentes no catálogo.",

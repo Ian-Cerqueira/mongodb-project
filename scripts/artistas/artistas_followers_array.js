@@ -1,4 +1,4 @@
-export const artistas_followers = [
+const artistas_followers = [
     [14, 28], 
     [4, 14, 25, 17, 31, 19], 
     [29, 10, 40, 17, 38], 
