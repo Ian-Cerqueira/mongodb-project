@@ -1,4 +1,4 @@
-export const albuns_f = [
+const albuns_f = [
   {
     "Titulo": "Folklore",
     "musicas": ["Cardigan", "The 1", "Exile", "Betty", "August"],
