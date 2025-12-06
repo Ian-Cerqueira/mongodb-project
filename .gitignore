@@ -1,2 +1,2 @@
-**/*.saida
+#**/*.saida
 /node_modules
